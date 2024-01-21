@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #F2F5F9;
+}
+
+.container {
+    max-width: 26.1rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    position: relative;
+    margin: 0 auto; 
+}
+
+.wave {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 39%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto; 
+}
+
+.cardContent {
+    padding: 2em;
+}
+
+.cardContent {
+    margin-top: -1.1em;
+    margin-bottom: -0.5em;
+}
+
+.title, .title2 {
+    color: #111729;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.title2 {
+    font-size: 1rem;
+}
+
+.text1, .text2 {
+    color: #677489;
+    font-family: 'Lato', sans-serif;
+}
+
+.text1 {
+    line-height: 1.5em;
+    margin-top: 0.5em;
+    font-size: 1rem;
+}
+
+.text2 {
+    font-size: 0.8rem;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    border-top: #F2F5F9 1px solid;
+    padding: 1.5em;
+}
+
+.authorPicture {
+    width: 3rem;
+    margin-right: 0.5em;
+}
+
+.authorPicture2 {
+    border-radius: 2rem;
+    border: #F2F5F9 5px solid;
+}
